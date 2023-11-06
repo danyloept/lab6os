@@ -42,7 +42,7 @@ float Calculate(float Numeral, char Operation[4]) {
     else if (strncmp(Operation, "tan", 3) == 0)
         return tan(Numeral);
     else {
-        printf("Wrong action");
+        printf("Неверный ввод операции");
         return HUGE_VAL;
     }
 }
